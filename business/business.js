@@ -17,7 +17,7 @@ const data = require("../data/data");
 const user_checker = {
     first: /^[A-Za-z-]+$/, //prénom
     last: /^[A-Za-z-]+$/, //nom
-    email: /^[^\s@]+@([^\s@.,]+\.)+[^\s@.,]{2,4}$/, //email
+    email: /^[^\s@]+@([^\s@.,]+\.)+[^\s@.,]{2,3}$/, //email
     company: /^[A-Za-z- ]+$/, //entreprise
     country: /^[A-Za-z- ]+$/ //pays
 };
