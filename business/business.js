@@ -92,7 +92,7 @@ const business_public = {
             return false;
         }
 
-        return data.add_user(user);
+        return data.add_user(user); 
     },
     /**
      * Edit an user in the database
